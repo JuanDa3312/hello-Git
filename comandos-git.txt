@@ -41,13 +41,11 @@ Utilidades
 | `git reflog`       | Historial de cambios realizados                            |
 | `git tag <nombre del tag> ` | Realizar etiquetas                            |
 | `git stash`        | Guarda temporalmente los cambios no committeados.          |
-<<<<<<< Updated upstream
-=======
 | `git stash list`   | Lista de stash                                             |
->>>>>>> Stashed changes
 | `git stash pop`    | Recupera los cambios guardados con `stash`.                |
 | `git stash drop`   | Eliminar los stash                                         |
 | `git clean -fd`    | Elimina archivos y carpetas no rastreados. **(¡Cuidado!)** |
 | `git branch <nombre de la rama> `| Crea una nueva rama                          |
+| `git branch <nombre de la rama> ` -d| Eliminar una rama                         |
 | `git switch <nombre de la rama> `| Moverse entre ramas                          |
 | `git merge <rama> `| Combina los cambios de las ramas                           |
