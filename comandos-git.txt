@@ -1,0 +1,39 @@
+configuración inicial
+| Comando                                         | Descripción                      |
+| ----------------------------------------------- | -------------------------------- |
+| `git config --global user.name "Tu Nombre"`     | Configura tu nombre de usuario.  |
+| `git config --global user.email "tu@email.com"` | Configura tu correo electrónico. |
+| `git config --list`                             | Muestra la configuración actual. |
+
+
+| Comando           | Descripción                                                  |
+| ----------------- | ------------------------------------------------------------ |
+| `git init`        | Inicializa un nuevo repositorio Git en el directorio actual. |
+| `git clone <url>` | Clona un repositorio remoto.                                 |
+
+
+| Comando                   | Descripción                                                           |
+| ------------------------- | --------------------------------------------------------------------- |
+| `git status`              | Muestra el estado de los archivos (modificados, nuevos, etc.).        |
+| `git add <archivo>`       | Agrega archivos al área de staging.                                   |
+| `git add .`               | Agrega todos los archivos.                                            |
+| `git commit -m "mensaje"` | Crea un commit con los cambios en staging.                            |
+| `git diff`                | Muestra diferencias entre archivos modificados y los últimos commits. |
+| `toch .gitignore `        | Se crea un archivo .gitignore para ignorar los archivos que ingreses. |
+
+
+| Comando             | Descripción                                |
+| ------------------- | ------------------------------------------ |
+| `git log`           | Muestra el historial de commits.           |
+| `git log --oneline` | Historial resumido (una línea por commit). |
+| `git show <hash>`   | Muestra detalles de un commit específico.  |
+| `git alisas`        | Generar un alias a un comando.             |
+| `git tree`          | Alias creado para mostrar los commits.             |
+
+| Comando            | Descripción                                                |
+| ------------------ | ---------------------------------------------------------- |
+| `git reset --hard` | Revierte todos los cambios no confirmados.                 |
+| `git stash`        | Guarda temporalmente los cambios no committeados.          |
+| `git stash pop`    | Recupera los cambios guardados con `stash`.                |
+| `git clean -fd`    | Elimina archivos y carpetas no rastreados. **(¡Cuidado!)** |
+| `git reflog`       | Historial de cambios realizados                            |
