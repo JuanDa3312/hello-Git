@@ -43,3 +43,5 @@ Utilidades
 | `git stash`        | Guarda temporalmente los cambios no committeados.          |
 | `git stash pop`    | Recupera los cambios guardados con `stash`.                |
 | `git clean -fd`    | Elimina archivos y carpetas no rastreados. **(¡Cuidado!)** |
+| `git branch <nombre de la rama> `| Crea una nueva rama                          |
+| `git switch <nombre de la rama> `| Moverse entre ramas                          |
