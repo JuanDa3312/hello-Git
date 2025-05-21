@@ -28,7 +28,11 @@ estado de commits
 | `git log --oneline` | Historial resumido (una línea por commit). |
 | `git show <hash>`   | Muestra detalles de un commit específico.  |
 | `git alisas`        | Generar un alias a un comando.             |
-| `git tree`          | Alias creado para mostrar los commits.             |
+| `git tree`          | Alias creado para mostrar los commits.     |
+| `git chechout <id del commit>`| Movernos a un punto en especifico|
+| `git chechout tags/<nombre del tag>`| ubicarnos en un tag        |
+
+
 
 Utilidades
 | Comando            | Descripción                                                |
