@@ -45,3 +45,4 @@ Utilidades
 | `git clean -fd`    | Elimina archivos y carpetas no rastreados. **(¡Cuidado!)** |
 | `git branch <nombre de la rama> `| Crea una nueva rama                          |
 | `git switch <nombre de la rama> `| Moverse entre ramas                          |
+| `git merge <rama> `| Combina los cambios de las ramas                           |
